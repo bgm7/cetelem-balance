@@ -1,0 +1,11 @@
+{
+  "name": "cetelem-balance",
+  "version": "0.1.0",
+  "description": "Web Scrapping to get balance cetelem's credit card",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brunno Mattos",
+  "license": "ISC"
+}
