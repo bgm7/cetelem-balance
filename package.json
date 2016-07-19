@@ -4,8 +4,14 @@
   "description": "Web Scrapping to get balance cetelem's credit card",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/casperjs main.js"
   },
   "author": "Brunno Mattos",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "casperjs": "^1.1.2",
+    "express": "^4.14.0",
+    "phantomjs-prebuilt": "^2.1.7"
+  }
 }
