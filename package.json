@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "./node_modules/.bin/casperjs main.js"
+    "start": "./node_modules/.bin/casperjs main.js",
+    "casperjs": "./node_modules/.bin/casperjs main.js",
+    "casper_example": "npm run casperjs -- --user=teste --pass=12345"
   },
   "author": "Brunno Mattos",
   "license": "ISC",
